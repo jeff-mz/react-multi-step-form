@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  font-family: "Ubuntu", "Helvetica", "Arial", "sans-serif";
+}
+.custom-pagination {
+  background: url("./assets/images/bg-sidebar-desktop.svg") bottom center/cover
+    no-repeat;
+}
+@media (max-width: 425px) {
+  .custom-pagination {
+    background: url("./assets/images/bg-sidebar-mobile.svg") center center/cover
+      no-repeat;
+  }
+}
